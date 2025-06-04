@@ -39,9 +39,10 @@ Used the following metrics to evaluate performance:
 
 | Model                 | R² Score | MAE   | RMSE  |
 |----------------------|----------|-------|-------|
-| Linear Regression     | 0.5758     | 0.5332  | 0.7456  |
-| Random Forest Regressor | 0.8051     | 0.3275  | 0.5053  |
-| XGBoost Regressor     | 0.8301     | 0.3096  | 0.4718  |
+| Linear Regression     | -0.2635     | 14.0200  | 15.5379  |
+| Decision tree performance | -1.0717     | 16.1803  | 19.8958  |
+| Random Forest Regressor | -0.4047     | 14.5414  | 16.3827  |
+| XGBoost Regressor     | -0.7538     | 16.6397  | 18.3058  |
 
 ### 5. 🛠️ Hyperparameter Tuning
 Used GridSearchCV / RandomizedSearchCV to optimize:
